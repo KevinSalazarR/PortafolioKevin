@@ -50,7 +50,6 @@ App web interactiva que dibuja figuras geométricas en `<canvas>` y calcula áre
 
 📫 **Contáctame:**  
 [Beacons Portfolio](https://website.beacons.ai/kevin.salazar)  
-📧 kevinsalazarr@gmail.com
 
 ---
 
