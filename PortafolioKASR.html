@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Kevin Salazar</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #1a73e8;
+    }
+    .tags {
+      margin: 10px 0;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .highlights {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+    .highlights li {
+      margin-bottom: 5px;
+    }
+    .buttons {
+      margin-top: 15px;
+    }
+    .buttons a {
+      display: inline-block;
+      padding: 8px 12px;
+      background: #1a73e8;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-right: 10px;
+    }
+    .buttons a:hover {
+      background: #155ab6;
+    }
+  </style>
+</head>
+<body>
+  <h1>Proyectos de Kevin Salazar</h1>
+  <div class="grid">
+
+    <div class="card">
+      <h2>LlantasMx</h2>
+      <p>Tienda en línea especializada en llantas para vehículos.</p>
+      <div class="tags">HTML, CSS, JavaScript, Node.js, MySQL</div>
+      <ul class="highlights">
+        <li>Búsqueda avanzada por marca y tipo de vehículo</li>
+        <li>Pasarela de pago y seguimiento de pedidos</li>
+        <li>Chat en vivo para atención al cliente</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>EvaluaPro</h2>
+      <p>Sistema de captura de calificaciones y reportes académicos.</p>
+      <div class="tags">HTML, CSS, JavaScript, PHP, MariaDB</div>
+      <ul class="highlights">
+        <li>Paneles para docentes, alumnos y administradores</li>
+        <li>Exportación a Excel y gráficos de rendimiento</li>
+        <li>Notificaciones automáticas por correo</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Calculadora Avanzada</h2>
+      <p>Aplicación en consola para operaciones matemáticas básicas.</p>
+      <div class="tags">Python</div>
+      <ul class="highlights">
+        <li>Interfaz de línea de comandos amigable</li>
+        <li>Validación de entradas y errores comunes</li>
+        <li>Uso continuo sin reinicio</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>IP Classifier</h2>
+      <p>Validador y clasificador de direcciones IP en C++.</p>
+      <div class="tags">C++</div>
+      <ul class="highlights">
+        <li>Validación de formato IPv4</li>
+        <li>Clasificación en clases (A, B, C, etc.)</li>
+        <li>Identificación de IPs privadas y reservadas</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>GeoShape</h2>
+      <p>Generador de figuras geométricas con cálculo automático.</p>
+      <div class="tags">HTML, CSS, JavaScript (Canvas)</div>
+      <ul class="highlights">
+        <li>Dibujo de figuras interactivas</li>
+        <li>Cálculo de área y perímetro en tiempo real</li>
+        <li>Validación de medidas ingresadas</li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
